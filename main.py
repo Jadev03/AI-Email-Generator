@@ -6,7 +6,16 @@ load_dotenv()
 llm=ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
 prompt=PromptTemplate(
-    input_variables=["purpose","tone","whom","sender_email_id","reciver_email_id","sender_name","additional_details"],
+    input_variables=[
+    "purpose",
+    "tone",
+    "recipient_name",
+    "sender_name",
+    "sender_email",
+    "recipient_email",
+    "additional_details"
+                        ],
+    validate_template=True,
     template="""Context
 -------
 You are an expert business communication assistant.
@@ -45,16 +54,36 @@ Do not include explanations or Markdown.
 )
 
 chain=prompt|llm
-response = chain.invoke({
-    "purpose": "Request a salary increase based on recent performance and additional responsibilities.",
-    "tone": "Professional",
-    "recipient_name": "John Doe",
-    "sender_name": "Alice Smith",
-    "sender_email": "alice.smith@example.com",
-    "recipient_email": "john.doe@example.com",
-     "additional_details": ""
-})
+# response = chain.invoke({
+#     "purpose": "Request a salary increase based on recent performance and additional responsibilities.",
+#     "tone": "Professional",
+#     "recipient_name": "John Doe",
+#     "sender_name": "Alice Smith",
+#     "sender_email": "alice.smith@example.com",
+#     "recipient_email": "john.doe@example.com",
+#      "additional_details": ""
+# })
 
-print("--------")
-print(response.content)
-print("--------")
+# print("--------")
+# print(response.content)
+# print("--------")
+def generate_email(
+    purpose,
+    tone,
+    recipient_name,
+    sender_name,
+    sender_email,
+    recipient_email,
+    additional_details=""
+):
+    response = chain.invoke({
+        "purpose": purpose,
+        "tone": tone,
+        "recipient_name": recipient_name,
+        "sender_name": sender_name,
+        "sender_email": sender_email,
+        "recipient_email": recipient_email,
+        "additional_details": additional_details
+    })
+
+    return response.content

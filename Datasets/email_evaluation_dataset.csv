@@ -1,0 +1,51 @@
+id,category,purpose,tone,recipient_name,additional_details,expected_characteristics
+1,Leave Request,Request 3 days of annual leave.,Professional,John Doe,Leave from August 10 to August 12 for personal reasons.,"Polite, concise, mentions dates."
+2,Leave Request,Request sick leave.,Professional,Sarah Lee,Need one day of sick leave due to fever.,"Empathetic, brief, clear."
+3,Leave Request,Request work from home.,Professional,David Smith,Work from home for two days because of home maintenance.,Professional justification.
+4,Salary,Request a salary increase.,Professional,John Doe,"Worked 5 years, exceeded KPIs, mentored junior staff.",Uses achievements naturally.
+5,Salary,Request compensation review.,Formal,Emily Brown,Completed Master's degree and took additional responsibilities.,Professional and persuasive.
+6,Promotion,Request promotion consideration.,Professional,Michael Chen,Led two successful projects and consistently received positive feedback.,Highlights achievements.
+7,Meeting,Invite team to weekly meeting.,Professional,Project Team,Meeting on Monday at 10:00 AM.,Clear meeting details.
+8,Meeting,Reschedule a meeting.,Professional,John Doe,Move meeting from Tuesday to Wednesday 2 PM.,States reason and new time.
+9,Meeting,Send meeting reminder.,Friendly,Development Team,Reminder for tomorrow at 9:30 AM.,Short and friendly.
+10,Project Update,Provide project progress update.,Professional,Project Manager,Frontend completed; backend 80% complete.,Organized status.
+11,Project Update,Notify project completion.,Professional,Client Team,Project delivered on schedule.,Positive closing.
+12,Task Assignment,Assign a task.,Professional,Alice Green,Prepare testing report by Friday.,Clear action.
+13,Task Assignment,Request code review.,Professional,Bob White,Review pull request #245.,Specific request.
+14,Follow-up,Follow up on previous email.,Professional,John Doe,Waiting for approval since last week.,Polite reminder.
+15,Approval,Request budget approval.,Formal,Finance Manager,"Budget of $5,000 for software licenses.",Professional justification.
+16,Approval,Request training approval.,Professional,HR Manager,Attend a cloud certification course.,Mentions benefits.
+17,Apology,Apologize for delayed response.,Professional,Sarah Lee,Delay due to urgent production issue.,Sincere apology.
+18,Apology,Apologize for missing a meeting.,Formal,Michael Chen,Unexpected medical appointment.,Professional tone.
+19,Appreciation,Thank a colleague.,Warm,Emma Wilson,Helped resolve production issue.,Genuine appreciation.
+20,Appreciation,Thank project team.,Warm,Development Team,Successfully delivered release.,Team recognition.
+21,Congratulations,Congratulate on promotion.,Friendly,David Smith,Recently promoted to Team Lead.,Positive tone.
+22,Welcome,Welcome a new employee.,Friendly,New Employee,Joining the engineering team.,Warm welcome.
+23,Farewell,Farewell message.,Warm,Jessica Brown,Leaving the organization next month.,Positive wishes.
+24,Complaint,Report printer issue.,Formal,IT Support,Printer on 3rd floor not working.,Respectful complaint.
+25,Complaint,Report network outage.,Professional,IT Team,Internet unavailable since morning.,Clear issue.
+26,Reminder,Remind about deadline.,Professional,John Doe,Submit report before Friday 5 PM.,Clear deadline.
+27,Reminder,Reminder for document submission.,Friendly,Intern Team,Upload onboarding documents.,Helpful tone.
+28,Permission,Request permission to attend conference.,Professional,Manager,AI conference next month.,Explain benefit.
+29,Permission,Request early departure.,Professional,Manager,Medical appointment at 3 PM.,Respectful.
+30,Training,Request technical training.,Professional,HR,Interested in Kubernetes training.,Learning benefits.
+31,Equipment,Request new laptop.,Professional,IT Manager,Current laptop frequently crashes.,Clear justification.
+32,Equipment,Request additional monitor.,Professional,IT Manager,Improves productivity for development.,Professional.
+33,Information,Request project requirements.,Professional,Business Analyst,Need updated requirements document.,Clear request.
+34,Information,Ask for clarification.,Professional,Team Lead,Clarify API specification.,Specific question.
+35,Deadline,Request deadline extension.,Professional,Project Manager,Need two additional days due to dependency.,Reasonable request.
+36,Deadline,Notify possible delay.,Professional,Client Team,Vendor delay affects timeline.,Transparent communication.
+37,Recognition,Nominate employee for award.,Professional,HR,Consistently exceeded expectations.,Evidence-based.
+38,Performance,Request performance feedback.,Professional,Manager,Interested in improvement suggestions.,Open and respectful.
+39,Performance,Share self-performance summary.,Professional,Manager,Completed all quarterly objectives.,Objective tone.
+40,Travel,Request business travel approval.,Professional,Department Head,Client meeting in another city.,Business justification.
+41,Holiday,Notify planned holiday.,Professional,Team,Vacation scheduled next month.,Informative.
+42,Policy,Request policy clarification.,Formal,HR,Question about remote work policy.,Clear inquiry.
+43,Support,Request technical support.,Professional,IT Helpdesk,Unable to access VPN.,Problem description.
+44,Support,Report software bug.,Professional,Development Team,Application crashes during login.,Reproducible issue.
+45,Event,Invite colleagues to team lunch.,Friendly,Team,Friday at 1 PM.,Friendly invitation.
+46,Event,Invite to knowledge-sharing session.,Professional,Engineering Team,Topic: LangChain Best Practices.,Professional invitation.
+47,General,Introduce yourself to a new team.,Friendly,New Team,Recently joined backend team.,Brief introduction.
+48,General,Request one-on-one meeting.,Professional,Manager,Discuss career development.,Professional request.
+49,Edge Case,Request salary increase.,Professional,John Doe,,Should ignore empty additional details gracefully.
+50,Edge Case,Request project extension.,Professional,Project Manager,"Worked 7 years, AWS certified, led three projects, mentored interns, consistently exceeded KPIs, recently completed Master's degree.",Integrate only relevant details naturally without listing them.
