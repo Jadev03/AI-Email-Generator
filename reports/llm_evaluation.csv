@@ -1,0 +1,50 @@
+instruction_following,professional_tone,grammar_fluency,completeness,conciseness,naturalness,hallucination,overall_quality,feedback,id,category
+5,5,5,5,5,5,5,5,"The email perfectly follows the request, maintaining a professional tone and clarity.",1,Leave Request
+5,5,5,5,5,5,5,5,The email perfectly meets all the requested criteria.,2,Leave Request
+5,5,5,5,5,5,5,5,The email perfectly meets all the criteria with a professional and clear request.,3,Leave Request
+5,5,5,5,4,5,5,5,The email effectively communicates the request with a professional tone and clear justification.,4,Salary
+5,5,5,5,5,5,5,5,The email effectively communicates the request for a compensation review with a professional and formal tone.,5,Salary
+5,5,5,5,4,5,5,5,The email effectively communicates the request for promotion with a professional tone and clear justification.,6,Promotion
+5,5,5,5,4,5,5,5,The email effectively follows instructions and maintains a professional tone.,7,Meeting
+5,5,5,5,5,5,5,5,The email effectively communicates the rescheduling request in a professional and concise manner.,8,Meeting
+5,5,5,5,5,5,5,5,The email perfectly meets all the requested criteria with a friendly tone and clear reminder.,9,Meeting
+5,5,5,5,5,5,5,5,The email effectively communicates project completion with a professional tone and clarity.,11,Project Update
+5,5,5,5,5,5,5,5,The email effectively communicates the task assignment with clarity and professionalism.,12,Task Assignment
+5,5,5,5,5,5,5,5,The email perfectly meets the request with a professional tone and clear purpose.,13,Task Assignment
+5,5,5,5,4,5,5,5,The email effectively follows up on the previous message with a professional and polite tone.,14,Follow-up
+5,5,5,5,5,5,5,5,The email effectively communicates the budget request with clarity and professionalism.,15,Approval
+5,5,5,5,5,5,5,5,The email effectively communicates the request with a professional tone and clarity.,16,Approval
+5,5,5,5,5,5,5,5,The email effectively communicates the apology and reason for delay in a professional manner.,17,Apology
+5,5,5,5,5,5,5,5,The email effectively communicates the apology and reason for missing the meeting in a professional and concise manner.,18,Apology
+5,5,5,5,4,5,5,5,The email effectively conveys gratitude with a warm and professional tone.,19,Appreciation
+5,5,5,5,4,5,5,5,The email effectively conveys gratitude with a warm tone and professional clarity.,20,Appreciation
+5,5,5,5,5,5,5,5,The email perfectly meets the user's request with a friendly and professional tone.,21,Congratulations
+5,5,5,5,4,5,5,5,The email effectively welcomes the new employee with a friendly and professional tone.,22,Welcome
+5,5,5,5,5,5,5,5,The email perfectly meets the user's request with a warm and professional tone.,23,Farewell
+5,5,5,5,5,5,5,5,"The email perfectly meets all the specified criteria with a clear, professional, and concise report of the printer issue.",24,Complaint
+5,5,5,5,5,5,5,5,The email effectively communicates the network outage with a professional tone and clear details.,25,Complaint
+5,5,5,5,5,5,5,5,The email perfectly meets all the specified criteria.,26,Reminder
+5,4,5,5,4,5,5,5,The email effectively follows instructions with a friendly tone and clear reminder.,27,Reminder
+5,5,5,4,4,5,5,5,The email effectively communicates the request with a professional tone and clarity.,28,Permission
+5,5,5,5,5,5,5,5,The email perfectly meets all criteria for a professional request.,29,Permission
+5,5,5,5,4,5,5,5,The email effectively communicates the request for Kubernetes training in a professional and complete manner.,30,Training
+5,5,5,4,5,5,5,5,The email effectively communicates the request with a professional tone and clarity.,31,Equipment
+5,5,5,5,5,5,5,5,The email effectively communicates the request with a professional tone and clear reasoning.,32,Equipment
+5,5,5,5,4,5,5,5,The email effectively communicates the request with a professional tone and clarity.,33,Information
+5,5,5,5,4,5,5,5,The email effectively requests clarification with a professional and clear tone.,34,Information
+5,5,5,5,4,5,5,5,The email effectively communicates the request with clarity and professionalism.,35,Deadline
+5,5,5,5,4,5,5,5,The email effectively communicates the potential delay with a professional tone and clear details.,36,Deadline
+5,5,5,5,4,5,5,5,The email effectively follows instructions and maintains a professional tone while being complete and natural.,37,Recognition
+5,5,5,5,4,5,5,5,The email effectively requests performance feedback with a professional tone and clear intent.,38,Performance
+5,5,5,5,4,5,5,5,The email effectively communicates the performance summary with a professional tone and clarity.,39,Performance
+5,5,5,4,4,5,5,5,The email effectively communicates the request with a professional tone and clarity.,40,Travel
+5,5,5,5,5,5,5,5,The email effectively communicates the planned holiday with a professional tone and clarity.,41,Holiday
+5,5,5,5,4,5,5,5,"The email effectively follows instructions, maintains a professional tone, and clearly requests policy clarification.",42,Policy
+5,5,5,5,4,5,5,5,The email effectively communicates the issue and request for support in a professional manner.,43,Support
+5,5,5,4,5,5,5,5,The email effectively communicates the issue with a professional tone and clarity.,44,Support
+5,4,5,5,4,5,5,5,The email effectively invites the team to lunch with a friendly tone and includes all necessary details.,45,Event
+5,5,5,4,4,5,5,5,The email effectively communicates the invitation and purpose while maintaining a professional tone.,46,Event
+5,4,5,5,4,5,5,5,The email effectively introduces the sender with a friendly and professional tone.,47,General
+5,5,5,5,4,5,5,5,The email effectively communicates the request for a meeting with a professional and natural tone.,48,General
+5,5,5,4,5,5,5,5,The email effectively communicates the salary increase request with a professional tone and clarity.,49,Edge Case
+5,5,5,5,4,5,5,5,The email effectively communicates the request with professionalism and clarity.,50,Edge Case

@@ -1,0 +1,51 @@
+id,category,subject_exists,greeting_exists,closing_exists,signature_exists,word_count,character_count,empty_response
+1,Leave Request,True,True,True,True,67,407,False
+2,Leave Request,True,True,True,True,101,533,False
+3,Leave Request,True,True,True,True,97,582,False
+4,Salary,True,True,True,True,141,876,False
+5,Salary,True,True,True,True,102,661,False
+6,Promotion,True,True,True,True,124,812,False
+7,Meeting,True,True,True,True,83,483,False
+8,Meeting,True,True,True,True,57,319,False
+9,Meeting,True,True,True,True,68,403,False
+10,Project Update,True,True,True,True,87,526,False
+11,Project Update,True,True,True,True,89,557,False
+12,Task Assignment,True,True,True,True,71,427,False
+13,Task Assignment,True,True,True,True,66,406,False
+14,Follow-up,True,True,True,True,93,527,False
+15,Approval,True,True,True,True,95,591,False
+16,Approval,True,True,True,True,98,650,False
+17,Apology,True,True,True,True,70,438,False
+18,Apology,True,True,True,True,74,468,False
+19,Appreciation,True,True,True,True,83,525,False
+20,Appreciation,True,True,True,True,115,717,False
+21,Congratulations,True,True,True,True,85,507,False
+22,Welcome,True,True,True,True,125,684,False
+23,Farewell,True,True,True,True,88,513,False
+24,Complaint,True,True,True,True,77,460,False
+25,Complaint,True,True,True,True,73,454,False
+26,Reminder,True,True,True,True,57,348,False
+27,Reminder,True,True,True,True,105,654,False
+28,Permission,True,True,True,True,95,568,False
+29,Permission,True,True,True,True,84,500,False
+30,Training,True,True,True,True,103,666,False
+31,Equipment,True,True,True,True,78,479,False
+32,Equipment,True,True,True,True,92,614,False
+33,Information,True,True,True,True,108,671,False
+34,Information,True,True,True,True,110,716,False
+35,Deadline,True,True,True,True,109,659,False
+36,Deadline,True,True,True,True,112,694,False
+37,Recognition,True,True,True,True,99,675,False
+38,Performance,True,True,True,True,100,624,False
+39,Performance,True,True,True,True,102,628,False
+40,Travel,True,True,True,True,90,568,False
+41,Holiday,True,True,True,True,69,393,False
+42,Policy,True,True,True,True,128,824,False
+43,Support,True,True,True,True,91,559,False
+44,Support,True,True,True,True,68,444,False
+45,Event,True,True,True,True,83,452,False
+46,Event,True,True,True,True,148,987,False
+47,General,True,True,True,True,111,637,False
+48,General,True,True,True,True,92,571,False
+49,Edge Case,True,True,True,True,73,475,False
+50,Edge Case,True,True,True,True,190,1187,False

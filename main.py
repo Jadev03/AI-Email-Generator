@@ -1,10 +1,23 @@
 from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import PromptTemplate
+from langchain_groq import ChatGroq
 
 load_dotenv()
-llm=ChatGoogleGenerativeAI(model="gemini-2.5-flash")
 
+def get_llm(provider="gemini"):
+    if provider == "gemini":
+        return ChatGoogleGenerativeAI(
+            model="gemini-2.5-flash"
+        )
+
+    elif provider == "groq":
+        return ChatGroq(
+            model="llama-3.3-70b-versatile"
+        )
+
+    else:
+        raise ValueError("Unknown provider")
 prompt=PromptTemplate(
     input_variables=[
     "purpose",
@@ -53,7 +66,8 @@ Do not include explanations or Markdown.
 
 )
 
-chain=prompt|llm
+llm = get_llm("groq")
+chain = prompt | llm
 # response = chain.invoke({
 #     "purpose": "Request a salary increase based on recent performance and additional responsibilities.",
 #     "tone": "Professional",
@@ -87,3 +101,38 @@ def generate_email(
     })
 
     return response.content
+
+
+def prompt_for_input(label, default=""):
+    if default:
+        value = input(f"{label} [{default}]: ").strip()
+        return value or default
+
+    return input(f"{label}: ").strip()
+
+
+def collect_email_details():
+    print("\nAI Email Generator")
+    print("-------------------")
+    print("Enter the details below. Press Enter to accept a suggested default where shown.\n")
+
+    return {
+        "purpose": prompt_for_input("Purpose of the email"),
+        "tone": prompt_for_input("Tone", "Professional"),
+        "recipient_name": prompt_for_input("Recipient name"),
+        "sender_name": prompt_for_input("Sender name"),
+        "sender_email": prompt_for_input("Sender email"),
+        "recipient_email": prompt_for_input("Recipient email"),
+        "additional_details": prompt_for_input("Additional details (optional)"),
+    }
+
+
+def main():
+    details = collect_email_details()
+    print("\nGenerating email...\n")
+    email = generate_email(**details)
+    print(email)
+
+
+if __name__ == "__main__":
+    main()
